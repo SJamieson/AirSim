@@ -384,7 +384,7 @@ void UAirBlueprintLib::InitializeMeshStencilIDs(bool ignore_existing)
     //}
     for (TObjectIterator<ALandscapeProxy> comp; comp; ++comp)
     {
-        InitializeObjectStencilID(*comp, ignore_existing);
+        InitializeObjectStencilID(*comp, false);
     }
 }
 
